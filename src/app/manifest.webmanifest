@@ -1,0 +1,15 @@
+{
+  "short_name": "Rick Vermeil",
+  "name": "Rick Vermeil - Software Engineer",
+  "icons": [
+    {
+      "src": "https://img.icons8.com/15616D/ios/32/null/climbing-anchor.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#FFECD1"
+}

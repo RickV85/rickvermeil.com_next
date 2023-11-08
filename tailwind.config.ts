@@ -7,13 +7,28 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+    fontFamily: {
+      'body': ['Bitter'],
+      'rrlogo': ['Permanent Marker'],
+      'backcountry': [`'Baloo Chettan 2', cursive`],
+      'lavlink': ['Dosis,sans-serif'],
+      'funkyflix': ['Passion One, cursive']
     },
+    colors: {
+      'darkBlue': '#001524',
+      'teal': '#15616D',
+      'beige': '#FFECD1',
+      'orange': '#FF7D00',
+      'aqua': '#34F6F2'
+    },
+    screens: {
+      'sm': '450px',
+      'md': '700px',
+      'mdlg': '900px',
+      'lg': '1180px',
+      'xl': '1600px',
+    },
+    extend: {},
   },
   plugins: [],
 }
