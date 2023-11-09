@@ -1,11 +1,17 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Bitter } from 'next/font/google'
 import './globals.css'
 import { inject } from '@vercel/analytics';
  
 inject();
 
 const inter = Inter({ subsets: ['latin'] })
+
+export const bitter = Bitter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-bitter'
+})
 
 export const metadata: Metadata = {
   title: 'Rick Vermeil | Software Engineer',
@@ -23,8 +29,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${inter.className} ${bitter.variable}`}>
+      <body >{children}</body>
     </html>
   )
 }
