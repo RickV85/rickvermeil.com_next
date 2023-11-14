@@ -4,6 +4,7 @@ import { useEffect, useState, useRef } from "react";
 import HeroImage from "./Components/HeroImage/HeroImage";
 import Image from "next/image";
 import Nav from "./Components/Nav/Nav";
+import Footer from "./Components/Footer/Footer";
 
 function Home() {
   const heroImageUrls = [
@@ -116,15 +117,7 @@ function Home() {
           </div>
         </section>
       </main>
-      <span style={{display: "none"}}>
-        <a target="_blank" href="https://icons8.com/icon/9383/climbing-anchor">
-          Climbing Anchor
-        </a>{" "}
-        icon by{" "}
-        <a target="_blank" href="https://icons8.com">
-          Icons8
-        </a>
-      </span>
+      <Footer />
     </>
   );
 }

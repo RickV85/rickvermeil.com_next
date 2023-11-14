@@ -76,7 +76,7 @@ export default function Nav({ section }: Props) {
             </h1>
           </div>
           <Image
-            className="h-5 mx-[2px] md:h-12 md:mx-3"
+            className="h-5 w-5 mx-[2px] md:h-10 md:w-10 md:mx-3"
             src="https://img.icons8.com/15616D/ios/100/null/climbing-anchor.png"
             alt="climbing anchor icon"
             width={100}
