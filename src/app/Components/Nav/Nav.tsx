@@ -1,5 +1,6 @@
 "use client";
 import { useEffect } from "react";
+import Image from "next/image";
 
 interface Props {
   section: string;
@@ -29,10 +30,12 @@ export default function Nav({ section }: Props) {
         <section className="flex items-center">
           <a href={"/software"}>
             <section className="flex flex-col justify-center md:flex-row items-center p-2 ml-3">
-              <img
+              <Image
                 className="w-8 hidden md:flex md:w-12"
                 src="https://img.icons8.com/ios-glyphs/100/15616D/react.png"
                 alt="JavaScript icon"
+                width={100}
+                height={100}
               />
               <h2
                 id="software"
@@ -44,10 +47,12 @@ export default function Nav({ section }: Props) {
           </a>
           <a href={"/resume"}>
             <section className="flex flex-col justify-center md:flex-row items-center p-2 ml-3">
-              <img
+              <Image
                 className="w-8 hidden md:flex md:w-12"
                 src="https://img.icons8.com/15616D/dotty/100/null/parse-from-clipboard.png"
                 alt="resume icon"
+                width={100}
+                height={100}
               />
               <h2
                 id="resume"
@@ -70,10 +75,12 @@ export default function Nav({ section }: Props) {
               Rick Vermeil
             </h1>
           </div>
-          <img
+          <Image
             className="h-5 mx-[2px] md:h-12 md:mx-3"
             src="https://img.icons8.com/15616D/ios/100/null/climbing-anchor.png"
             alt="climbing anchor icon"
+            width={100}
+            height={100}
           />
         </a>
       </nav>

@@ -20,6 +20,7 @@ export const metadata: Metadata = {
   robots: "index, follow",
   other: {
     author: "Rick Vermeil",
+    favicon: "Icons8"
   }
 }
 

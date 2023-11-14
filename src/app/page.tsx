@@ -48,8 +48,11 @@ function Home() {
       {/* <Nav section={section} /> */}
       {/* Need to come up with global state and implement as above */}
       <Nav section={"home"} />
-      <main id="homeMain" className="font-body flex flex-col items-center xl:m-auto xl:max-w-[1600px]">
-        <section className="relative flex items-center justify-center h-[30vh] sm:h-[44vh] md:h-[60vh] lg:h-[90vh] lg:max-h-[825px] w-screen xl:w-[1600px] xl:m-auto">
+      <main
+        id="homeMain"
+        className="font-body flex flex-col items-center xl:m-auto xl:max-w-[1600px]"
+      >
+        <section className="relative flex items-center justify-center h-[30vh] sm:h-[44vh] md:h-[75vh] lg:h-[90vh] lg:max-h-[825px] w-screen xl:w-[1600px] xl:m-auto">
           {heroImageUrls.map((url, i) => (
             <HeroImage
               key={i}
@@ -60,7 +63,7 @@ function Home() {
           ))}
           <div className="w-[225px] sm:w-[330px] md:w-[550px] -translate-x-16 sm:-translate-x-20 md:-translate-x-36 lg:-translate-x-64">
             <h3 className=" text-[1.1rem] sm:text-[1.5rem] md:text-[2rem] lg:text-[3rem] sm:leading-[30px] md:leading-[40px] lg:leading-[60px]  font-semibold text-aqua  text-center [text-shadow:_2px_2px_5px_#000000] ">
-              Frontend Developer,
+              Software Developer,
               <br />
               passionate adventurer,
               <br />
@@ -113,6 +116,15 @@ function Home() {
           </div>
         </section>
       </main>
+      <span style={{display: "none"}}>
+        <a target="_blank" href="https://icons8.com/icon/9383/climbing-anchor">
+          Climbing Anchor
+        </a>{" "}
+        icon by{" "}
+        <a target="_blank" href="https://icons8.com">
+          Icons8
+        </a>
+      </span>
     </>
   );
 }
