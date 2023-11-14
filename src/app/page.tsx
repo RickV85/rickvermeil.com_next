@@ -48,8 +48,8 @@ function Home() {
       {/* <Nav section={section} /> */}
       {/* Need to come up with global state and implement as above */}
       <Nav section={"home"} />
-      <main id="homeMain" className="font-body">
-        <section className="relative flex items-center justify-center h-[30vh] sm:h-[44vh] md:h-[60vh] lg:h-[90vh] w-screen xl:w-[1600px] xl:m-auto">
+      <main id="homeMain" className="font-body flex flex-col items-center xl:m-auto xl:max-w-[1600px]">
+        <section className="relative flex items-center justify-center h-[30vh] sm:h-[44vh] md:h-[60vh] lg:h-[90vh] lg:max-h-[825px] w-screen xl:w-[1600px] xl:m-auto">
           {heroImageUrls.map((url, i) => (
             <HeroImage
               key={i}
@@ -73,14 +73,14 @@ function Home() {
             </a>
           </div>
         </section>
-        <section className="flex flex-col items-center h-fit">
+        <section className="flex flex-col items-center h-fit xl:max-w-[1600px]">
           <p
-            className={`text-darkBlue font-light leading-loose whitespace-pre-line text-center w-[90vw] py-4 `}
+            className={`text-darkBlue font-light text-sm md:text-base leading-loose whitespace-pre-line text-center w-inherit p-4`}
           >
             {`Hello and welcome! When I'm not pursuing one of my passions in the outdoors, you'll find me designing and brining user-centric web applications to life. I love pushing my limits on a rock face, down a mountain bike trail and in software development. I believe that the same focus and determination required to conquer a challenging climb or trail translates seamlessly into the world of software development.`}
           </p>
-          <div className="bg-teal h-fit w-screen flex flex-col-reverse mdlg:flex-row items-center ">
-            <div className="relative w-full m-4 sm:w-[60vw] md:max-w-sm md:m-8 mdlg:min-w-[30vw]">
+          <div className="bg-teal h-fit w-inherit flex flex-col-reverse mdlg:flex-row items-center ">
+            <div className="w-full m-4 sm:w-[60vw] md:max-w-sm md:min-w-[16rem] md:m-8">
               <Image
                 src={"/crestprofilepic_webres.webp"}
                 alt="Rick Vermeil head shot"
@@ -90,7 +90,7 @@ function Home() {
                 priority={true}
               />
             </div>
-            <div className="text-beige whitespace-pre-line ">
+            <div className="text-beige text-sm md:text-base whitespace-pre-line ">
               <p
                 ref={paragraphRef}
                 className={`p-6 transition-all duration-700 ease-in-out transform ${
