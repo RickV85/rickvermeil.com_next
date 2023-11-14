@@ -16,7 +16,7 @@ export const data = [
       "GitHub"
     ],
     bgColor: "bg-[#2F4858]",
-    titleFontStyle: "font-rrlogo text-[#F6AE2D]",
+    titleFontStyle: "font-rrlogo font-[400] text-[#F6AE2D]",
     ytLink: "https://www.youtube.com/embed/WvRA8F9EQsI",
     img: "",
     descFontStyle: "text-[#F6AE2D] text-lg",

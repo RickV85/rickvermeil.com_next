@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Bitter } from 'next/font/google'
+import { Inter, Bitter, Permanent_Marker } from 'next/font/google'
 import './globals.css'
 import { inject } from '@vercel/analytics';
  
@@ -11,6 +11,13 @@ export const bitter = Bitter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-bitter'
+})
+
+export const permanentMarker = Permanent_Marker({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: '400',
+  variable: '--font-permanent-marker'
 })
 
 export const metadata: Metadata = {
@@ -30,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.className} ${bitter.variable}`}>
+    <html lang="en" className={`${inter.className} ${bitter.variable} ${permanentMarker.variable}`}>
       <body >{children}</body>
     </html>
   )

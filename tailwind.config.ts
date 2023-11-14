@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         body: ["var(--font-bitter)"],
-        rrlogo: ["Permanent Marker"],
+        rrlogo: ["var(--font-permanent-marker)"],
         backcountry: [`'Baloo Chettan 2', cursive`],
         lavlink: ["Dosis,sans-serif"],
         funkyflix: ["Passion One, cursive"],

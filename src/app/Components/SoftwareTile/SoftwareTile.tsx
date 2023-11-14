@@ -54,7 +54,7 @@ export default function SoftwareTile({
 
   return (
     <section
-      className={`${bgColor} w-[95vw] flex flex-col items-center max-w-[1200px] rounded-lg h-fit p-4 mt-4`}
+      className={`${bgColor} w-[95vw] flex flex-col items-center max-w-[1200px] rounded-lg h-fit p-4 mt-4 font-body`}
     >
       <div className="flex flex-col items-center">
         <h2
