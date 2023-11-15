@@ -46,8 +46,6 @@ function Home() {
 
   return (
     <>
-      {/* <Nav section={section} /> */}
-      {/* Need to come up with global state and implement as above */}
       <Nav section={"home"} />
       <main
         id="homeMain"
@@ -70,7 +68,7 @@ function Home() {
               <br />
               driven by challenge
             </h3>
-            <a className=" w-full flex flex-col items-center p-4 ">
+            <a href="/software" className=" w-full flex flex-col items-center p-4 ">
               <button className="w-fit lg:w-[16vw] lg:max-w-[250px] h-fit bg-teal/90 outline outline-1 outline-orange rounded-md text-aqua [text-shadow:_2px_2px_5px_#000000] text-xs sm:text-base lg:text-lg font-semibold p-2 ">
                 Checkout my apps!
               </button>
@@ -79,7 +77,7 @@ function Home() {
         </section>
         <section className="flex flex-col items-center h-fit xl:max-w-[1600px]">
           <p
-            className={`text-darkBlue font-light text-sm md:text-base leading-loose whitespace-pre-line text-center w-inherit p-4`}
+            className={`text-darkBlue font-light text-sm sm:text-base md:text-lg leading-loose whitespace-pre-line text-center w-inherit p-4 lg:py-6`}
           >
             {`Hello and welcome! When I'm not pursuing one of my passions in the outdoors, you'll find me designing and brining user-centric web applications to life. I love pushing my limits on a rock face, down a mountain bike trail and in software development. I believe that the same focus and determination required to conquer a challenging climb or trail translates seamlessly into the world of software development.`}
           </p>
