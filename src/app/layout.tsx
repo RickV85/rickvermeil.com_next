@@ -8,9 +8,7 @@ import {
   Passion_One,
 } from "next/font/google";
 import "./globals.css";
-import { inject } from "@vercel/analytics";
-
-inject();
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -76,7 +74,10 @@ export default function RootLayout({
         ${passionOne.variable}
       `}
     >
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
