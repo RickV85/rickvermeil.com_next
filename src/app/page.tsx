@@ -9,9 +9,9 @@ import Link from "next/link";
 
 function Home() {
   const heroImageUrls = [
-    "/Shelf-81.webp",
-    "/DSC_0232.webp",
-    "/Cropped_Keystone_Enduro_EvenFlow.webp",
+    "/Shelf-81-30.webp",
+    "/DSC_0232-30.webp",
+    "/Cropped_Keystone_Enduro_EvenFlow-30.webp",
   ];
   const [heroImgIndex, setHeroImgIndex] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
