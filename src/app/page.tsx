@@ -5,6 +5,7 @@ import HeroImage from "./Components/HeroImage/HeroImage";
 import Image from "next/image";
 import Nav from "./Components/Nav/Nav";
 import Footer from "./Components/Footer/Footer";
+import Link from "next/link";
 
 function Home() {
   const heroImageUrls = [
@@ -68,11 +69,13 @@ function Home() {
               <br />
               driven by challenge
             </h3>
-            <a href="/software" className=" w-full flex flex-col items-center p-4 ">
-              <button className="w-fit lg:w-[16vw] lg:max-w-[250px] h-fit bg-teal/90 outline outline-1 outline-orange rounded-md text-aqua [text-shadow:_2px_2px_5px_#000000] text-xs sm:text-base lg:text-lg font-semibold p-2 ">
-                Checkout my apps!
-              </button>
-            </a>
+            <div className=" w-full flex flex-col items-center py-4 ">
+              <Link href={"/software"}>
+                <button className="w-fit lg:w-[16vw] lg:max-w-[250px] h-fit bg-teal/90 outline outline-1 outline-orange rounded-md text-aqua [text-shadow:_2px_2px_5px_#000000] text-xs sm:text-base lg:text-lg font-semibold p-2 ">
+                  Checkout my apps!
+                </button>
+              </Link>
+            </div>
           </div>
         </section>
         <section className="flex flex-col items-center h-fit xl:max-w-[1600px]">

@@ -31,7 +31,7 @@ export const data = [
     Please note, this application requires a Strava account and the tracking of mountain bike rides for accurate operation. For those who do not mountain bike or do not use Strava in this way, I invite you to enjoy the video above and welcome you to reach out for a personal demonstration.`,
     linkLogoColor: "F26419",
     deployedLink: "https://www.ridereadybike.com",
-    ghLink: "https://github.com/orgs/RideReady/repositories",
+    ghLink: "https://github.com/RickV85/RideReady-FE",
   },
   {
     appTitle: "Backcountry Bookings",

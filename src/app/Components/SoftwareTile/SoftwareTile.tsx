@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export interface Props {
   appTitle: string;
@@ -41,7 +42,15 @@ export default function SoftwareTile({
 
   let image;
   if (img) {
-    image = <Image className="mb-2" height={300} width={675} src={img} alt={`${appTitle} app`} />;
+    image = (
+      <Image
+        className="mb-2"
+        height={300}
+        width={675}
+        src={img}
+        alt={`${appTitle} app`}
+      />
+    );
   }
 
   let formattedTech = tech.map((str, i) => {
@@ -69,7 +78,7 @@ export default function SoftwareTile({
       <div className={`w-[90vw] md:w-[87vw] max-w-[1115px] ${descFontStyle}`}>
         <p className="py-2 whitespace-pre-line">{description}</p>
         <p className="font-bold">Built using: {formattedTech}</p>
-        <a
+        <Link
           href={deployedLink}
           className="flex items-center w-fit py-2"
           target="_blank"
@@ -83,8 +92,8 @@ export default function SoftwareTile({
             height={50}
           />
           <p className="pl-2">Deployed Application</p>
-        </a>
-        <a
+        </Link>
+        <Link
           href={ghLink}
           className="flex items-center w-fit py-2"
           target="_blank"
@@ -98,7 +107,7 @@ export default function SoftwareTile({
             height={48}
           />
           <p className="pl-2">GitHub Repository</p>
-        </a>
+        </Link>
       </div>
     </section>
   );
