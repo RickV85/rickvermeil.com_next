@@ -11,17 +11,15 @@ export default function Nav({ section }: Props) {
     const software = document.getElementById("software");
     const resume = document.getElementById("resume");
 
-    software?.classList.remove("text-orange");
-    resume?.classList.remove("text-orange");
-    switch (section) {
-      case "software":
-        software?.classList.add("text-orange");
-        break;
-      case "resume":
-        resume?.classList.add("text-orange");
-        break;
-    }
-    // eslint-disable-next-line
+    const allSections = [software, resume];
+
+    allSections.forEach((element) => {
+      if (element?.id !== section) {
+        element?.classList.remove("text-orange");
+      } else if (element?.id === section) {
+        element?.classList.add("text-orange");
+      }
+    });
   }, [section]);
 
   return (
