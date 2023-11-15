@@ -1,5 +1,3 @@
-"use client";
-import { useEffect } from "react";
 import Image from "next/image";
 
 interface Props {
@@ -7,20 +5,6 @@ interface Props {
 }
 
 export default function Nav({ section }: Props) {
-  useEffect(() => {
-    const software = document.getElementById("software");
-    const resume = document.getElementById("resume");
-
-    const allSections = [software, resume];
-
-    allSections.forEach((element) => {
-      if (element?.id !== section) {
-        element?.classList.remove("text-orange");
-      } else if (element?.id === section) {
-        element?.classList.add("text-orange");
-      }
-    });
-  }, [section]);
 
   return (
     <header>
@@ -37,7 +21,7 @@ export default function Nav({ section }: Props) {
               />
               <h2
                 id="software"
-                className="text-beige text-sm md:text-base md:ml-2 "
+                className={`text-beige text-sm md:text-base md:ml-2 ${section === "software" ? "text-orange" : null}`}
               >
                 Software
               </h2>
@@ -54,7 +38,7 @@ export default function Nav({ section }: Props) {
               />
               <h2
                 id="resume"
-                className="text-beige text-sm md:text-base md:ml-2"
+                className={`text-beige text-sm md:text-base md:ml-2 ${section === "resume" ? "text-orange" : null}`}
               >
                 Resume
               </h2>
