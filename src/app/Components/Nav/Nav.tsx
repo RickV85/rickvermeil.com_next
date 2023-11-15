@@ -62,7 +62,7 @@ export default function Nav({ section }: Props) {
               </h2>
             </section>
           </a>
-          {/* <a href={"/resume"}>
+          {/* <a href={"/videos"}>
           <section className="flex flex-col justify-center md:flex-row items-center p-2 ml-3">
             <img className="w-8 hidden md:flex md:w-11" src="https://img.icons8.com/15616D/ios/100/null/play-button-circled--v1.png" alt="play button" />
             <h2 className="text-beige text-sm md:text-base md:ml-2">Videos</h2>
