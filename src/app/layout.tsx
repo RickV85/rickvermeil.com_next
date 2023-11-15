@@ -5,7 +5,7 @@ import {
   Permanent_Marker,
   Baloo_Chettan_2,
   Dosis,
-  Passion_One
+  Passion_One,
 } from "next/font/google";
 import "./globals.css";
 import { inject } from "@vercel/analytics";
@@ -43,7 +43,7 @@ export const passionOne = Passion_One({
   subsets: ["latin"],
   display: "swap",
   weight: "400",
-  variable: "--font-passion-one"
+  variable: "--font-passion-one",
 });
 
 export const metadata: Metadata = {
@@ -67,7 +67,14 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.className} ${bitter.variable} ${permanentMarker.variable} ${baloo.variable} ${dosis.variable} ${passionOne.variable}`}
+      className={`
+        ${inter.className}
+        ${bitter.variable}
+        ${permanentMarker.variable}
+        ${baloo.variable}
+        ${dosis.variable}
+        ${passionOne.variable}
+      `}
     >
       <body>{children}</body>
     </html>

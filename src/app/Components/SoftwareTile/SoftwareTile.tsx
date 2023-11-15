@@ -41,7 +41,7 @@ export default function SoftwareTile({
 
   let image;
   if (img) {
-    image = <img className="mb-2" src={img} alt={`${appTitle} app`} />;
+    image = <Image className="mb-2" height={300} width={675} src={img} alt={`${appTitle} app`} />;
   }
 
   let formattedTech = tech.map((str, i) => {
