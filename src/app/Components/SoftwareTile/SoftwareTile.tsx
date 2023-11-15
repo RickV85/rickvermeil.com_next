@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 
 export interface Props {
   appTitle: string;
@@ -75,10 +75,12 @@ export default function SoftwareTile({
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src={`https://img.icons8.com/ios/50/${linkLogoColor}/domain--v1.png`}
             alt="website icon"
             className="drop-shadow-[3px_2px_2px_#00000075]"
+            width={50}
+            height={50}
           />
           <p className="pl-2">Deployed Application</p>
         </a>
@@ -88,10 +90,12 @@ export default function SoftwareTile({
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src={`https://img.icons8.com/material-outlined/48/${linkLogoColor}/github.png`}
             alt="GitHub icon"
             className="drop-shadow-[3px_2px_2px_#00000075]"
+            width={48}
+            height={48}
           />
           <p className="pl-2">GitHub Repository</p>
         </a>

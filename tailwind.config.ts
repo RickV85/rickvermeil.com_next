@@ -11,9 +11,9 @@ const config: Config = {
       fontFamily: {
         body: ["var(--font-bitter)"],
         rrlogo: ["var(--font-permanent-marker)"],
-        backcountry: [`'Baloo Chettan 2', cursive`],
-        lavlink: ["Dosis,sans-serif"],
-        funkyflix: ["Passion One, cursive"],
+        backcountry: ["var(--font-baloo)"],
+        lavlink: ["var(--font-dosis)"],
+        funkyflix: ["var(--font-passion-one)"],
       },
       colors: {
         darkBlue: "#001524",
