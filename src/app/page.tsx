@@ -95,7 +95,7 @@ function Home() {
                 priority={true}
               />
             </div>
-            <div className="text-beige text-sm md:text-base whitespace-pre-line ">
+            <article className="text-beige text-sm md:text-base whitespace-pre-line ">
               <p
                 ref={paragraphRef}
                 className={`p-6 transition-all duration-700 ease-in-out transform ${
@@ -114,7 +114,7 @@ function Home() {
             As a developer, I'm highly collaborative, methodical, and I value producing quality, readable code. My marketing experience has given me a unique perspective on user empathy, and I'm always thinking about how to create the best possible experience for my users.
 
             Thank you for taking the time to learn more about me, and I hope to have the opportunity to work with you soon. Please click the link below if you'd like to get in touch.`}</p>
-            </div>
+            </article>
           </div>
         </section>
       </main>

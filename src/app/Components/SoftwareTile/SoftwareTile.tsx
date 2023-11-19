@@ -75,7 +75,7 @@ export default function SoftwareTile({
         {ytIFrame}
         {image}
       </div>
-      <div className={`w-[90vw] md:w-[87vw] max-w-[1115px] ${descFontStyle}`}>
+      <article className={`w-[90vw] md:w-[87vw] max-w-[1115px] ${descFontStyle}`}>
         <p className="py-2 whitespace-pre-line">{description}</p>
         <p className="font-bold">Built using: {formattedTech}</p>
         <Link
@@ -108,7 +108,7 @@ export default function SoftwareTile({
           />
           <p className="pl-2">GitHub Repository</p>
         </Link>
-      </div>
+      </article>
     </section>
   );
 }
