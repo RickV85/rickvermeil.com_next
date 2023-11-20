@@ -8,12 +8,12 @@ interface Props {
 export default function Nav({ section }: Props) {
   return (
     <header>
-      <nav className="bg-darkBlue w-screen h-18 md:h-24 flex justify-between py-2.5 font-body">
-        <section className="flex items-center">
+      <nav className="h-18 flex w-screen justify-between bg-darkBlue py-2.5 font-body md:h-24">
+        <div className="flex items-center">
           <Link href={"/software"}>
-            <section className="flex flex-col justify-center md:flex-row items-center p-2 ml-3">
+            <div className="ml-3 flex flex-col items-center justify-center p-2 md:flex-row">
               <Image
-                className="w-8 hidden md:flex md:w-12"
+                className="hidden w-8 md:flex md:w-12"
                 src="https://img.icons8.com/ios-glyphs/100/15616D/react.png"
                 alt="JavaScript icon"
                 width={100}
@@ -21,18 +21,18 @@ export default function Nav({ section }: Props) {
               />
               <h2
                 id="software"
-                className={`text-beige text-sm md:text-base md:ml-2 ${
-                  section === "software" ? "text-orange" : null
+                className={`text-sm text-beige md:ml-2 md:text-base ${
+                  section === "software" ? "text-orange" : ""
                 }`}
               >
                 Software
               </h2>
-            </section>
+            </div>
           </Link>
           <Link href={"/resume"}>
-            <section className="flex flex-col justify-center md:flex-row items-center p-2 ml-3">
+            <section className="ml-3 flex flex-col items-center justify-center p-2 md:flex-row">
               <Image
-                className="w-8 hidden md:flex md:w-12"
+                className="hidden w-8 md:flex md:w-12"
                 src="https://img.icons8.com/15616D/dotty/100/null/parse-from-clipboard.png"
                 alt="resume icon"
                 width={100}
@@ -40,29 +40,23 @@ export default function Nav({ section }: Props) {
               />
               <h2
                 id="resume"
-                className={`text-beige text-sm md:text-base md:ml-2 ${
-                  section === "resume" ? "text-orange" : null
+                className={`text-sm text-beige md:ml-2 md:text-base ${
+                  section === "resume" ? "text-orange" : ""
                 }`}
               >
                 Resume
               </h2>
             </section>
           </Link>
-          {/* <Link href={"/videos"}>
-          <section className="flex flex-col justify-center md:flex-row items-center p-2 ml-3">
-            <img className="w-8 hidden md:flex md:w-11" src="https://img.icons8.com/15616D/ios/100/null/play-button-circled--v1.png" alt="play button" />
-            <h2 className="text-beige text-sm md:text-base md:ml-2">Videos</h2>
-          </section>
-        </Link> */}
-        </section>
+        </div>
         <Link href={"/"} className="flex items-center">
           <div>
-            <h1 className="text-orange text-center text-base md:text-4xl font-light">
+            <h1 className="text-center text-base font-light text-orange md:text-4xl">
               Rick Vermeil
             </h1>
           </div>
           <Image
-            className="h-5 w-5 mx-[2px] md:h-10 md:w-10 md:mx-3"
+            className="mx-[2px] h-5 w-5 md:mx-3 md:h-10 md:w-10"
             src="https://img.icons8.com/15616D/ios/100/null/climbing-anchor.png"
             alt="climbing anchor icon"
             width={100}
