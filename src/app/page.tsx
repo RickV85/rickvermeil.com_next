@@ -8,10 +8,10 @@ import Footer from "./Components/Footer/Footer";
 import Link from "next/link";
 
 function Home() {
-  const heroImageUrls = [
-    "/Shelf-81-30.webp",
-    "/DSC_0232-30.webp",
-    "/Cropped_Keystone_Enduro_EvenFlow-30.webp",
+  const heroImages = [
+    {url: "/Shelf-81.webp", alt: "Page author rock climbing on a sunny day"},
+    {url: "/DSC_0232.webp", alt: "Page author close up on a boat in Thailand"},
+    {url: "/Cropped_Keystone_Enduro_EvenFlow.webp", alt: "Page author downhill mountain bike racing"},
   ];
   const [heroImgIndex, setHeroImgIndex] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
@@ -19,12 +19,12 @@ function Home() {
 
   useEffect(() => {
     const heroImgTimer = setInterval(() => {
-      setHeroImgIndex((heroImgIndex + 1) % heroImageUrls.length);
+      setHeroImgIndex((heroImgIndex + 1) % heroImages.length);
     }, 6000);
     return () => {
       clearInterval(heroImgTimer);
     };
-  }, [heroImgIndex, heroImageUrls.length]);
+  }, [heroImgIndex, heroImages.length]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -53,12 +53,13 @@ function Home() {
         className="font-body flex flex-col items-center xl:m-auto xl:max-w-[1600px]"
       >
         <section className="relative flex items-center justify-center h-[30vh] sm:h-[44vh] md:h-[75vh] lg:h-[90vh] lg:max-h-[825px] w-screen xl:w-[1600px] xl:m-auto">
-          {heroImageUrls.map((url, i) => (
+          {heroImages.map((image, i) => (
             <HeroImage
-              key={i}
+              key={`heroImg-${i}`}
               imgIndex={i}
               currentImgIndex={heroImgIndex}
-              imgUrl={url}
+              imgUrl={image.url}
+              imgAlt={image.alt}
             />
           ))}
           <div className="w-[225px] sm:w-[330px] md:w-[550px] -translate-x-16 sm:-translate-x-20 md:-translate-x-36 lg:-translate-x-64">
@@ -80,7 +81,7 @@ function Home() {
         </section>
         <section className="flex flex-col items-center h-fit xl:max-w-[1600px]">
           <p
-            className={`text-darkBlue font-light text-sm sm:text-base md:text-lg leading-loose whitespace-pre-line text-center w-inherit p-4 lg:py-6`}
+            className={`text-darkBlue font-light text-sm sm:text-base md:text-lg leading-loose whitespace-pre-line text-center w-inherit lg:my-6`}
           >
             {`Hello and welcome! When I'm not pursuing one of my passions in the outdoors, you'll find me designing and brining user-centric web applications to life. I love pushing my limits on a rock face, down a mountain bike trail and in software development. I believe that the same focus and determination required to conquer a challenging climb or trail translates seamlessly into the world of software development.`}
           </p>
