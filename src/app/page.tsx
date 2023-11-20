@@ -58,7 +58,7 @@ function Home() {
         id="homeMain"
         className="flex flex-col items-center font-body xl:m-auto xl:max-w-[1600px]"
       >
-        <section className="relative flex h-[30vh] w-screen items-center justify-center sm:h-[44vh] md:h-[75vh] lg:h-[90vh] xl:m-auto xl:w-[1600px]">
+        <section className="relative flex h-[30vh] w-screen items-center justify-center sm:h-[44vh] md:h-[65vh] lg:h-[90vh] xl:m-auto xl:w-[1600px]">
           {heroImages.map((image, i) => (
             <HeroImage
               key={`heroImg-${i}`}
@@ -87,7 +87,7 @@ function Home() {
         </section>
         <section className="flex h-fit flex-col items-center xl:max-w-[1600px]">
           <p
-            className={`w-inherit whitespace-pre-line text-center text-sm font-light leading-loose text-darkBlue sm:text-base md:text-lg lg:my-6`}
+            className={`w-inherit m-4 whitespace-pre-line text-center text-sm font-light leading-loose text-darkBlue sm:text-base md:text-lg lg:my-6`}
           >
             {`Hello and welcome! When I'm not pursuing one of my passions in the outdoors, you'll find me designing and brining user-centric web applications to life. I love pushing my limits on a rock face, down a mountain bike trail and in software development. I believe that the same focus and determination required to conquer a challenging climb or trail translates seamlessly into the world of software development.`}
           </p>

@@ -17,9 +17,8 @@ export default function HeroImage({
     <Image
       src={imgUrl}
       alt={imgAlt}
-      height={1080}
-      width={1920}
-      className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ${
+      fill
+      className={`object-cover transition-opacity duration-1000 ${
         imgIndex === currentImgIndex ? "opacity-100" : "opacity-0"
       }`}
     ></Image>
