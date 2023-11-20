@@ -8,7 +8,7 @@ interface Props {
 export default function Nav({ section }: Props) {
   return (
     <header>
-      <nav className="h-18 flex w-screen justify-between bg-darkBlue py-2.5 font-body md:h-24">
+      <nav className="h-18 flex w-screen max-w-[1600px] justify-between bg-darkBlue py-2.5 font-body md:h-24">
         <div className="flex items-center">
           <Link href={"/software"}>
             <div className="ml-3 flex flex-col items-center justify-center p-2 md:flex-row">

@@ -9,13 +9,13 @@ import Link from "next/link";
 
 function Home() {
   const heroImages = [
-    { url: "/Shelf-81.webp", alt: "Page author rock climbing on a sunny day" },
+    { url: "/Shelf-81-70.webp", alt: "Page author rock climbing on a sunny day" },
     {
-      url: "/DSC_0232.webp",
+      url: "/DSC_0232-70.webp",
       alt: "Page author close up on a boat in Thailand",
     },
     {
-      url: "/Cropped_Keystone_Enduro_EvenFlow.webp",
+      url: "/Cropped_Keystone_Enduro_EvenFlow-70.webp",
       alt: "Page author downhill mountain bike racing",
     },
   ];
