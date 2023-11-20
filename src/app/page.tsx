@@ -69,13 +69,13 @@ function Home() {
             />
           ))}
           <div className="w-[225px] -translate-x-16 sm:w-[330px] sm:-translate-x-20 md:w-[550px] md:-translate-x-36 lg:-translate-x-64">
-            <h3 className=" text-center text-[1.1rem] font-semibold text-aqua [text-shadow:_2px_2px_5px_#000000] sm:text-[1.5rem] sm:leading-[30px]  md:text-[2rem] md:leading-[40px]  lg:text-[3rem] lg:leading-[60px] ">
+            <p className=" text-center text-[1.1rem] font-semibold text-aqua [text-shadow:_2px_2px_5px_#000000] sm:text-[1.5rem] sm:leading-[30px]  md:text-[2rem] md:leading-[40px]  lg:text-[3rem] lg:leading-[60px] ">
               Software Developer,
               <br />
               passionate adventurer,
               <br />
               driven by challenge
-            </h3>
+            </p>
             <div className=" flex w-full flex-col items-center py-4 ">
               <Link href={"/software"}>
                 <button className="h-fit w-fit rounded-md bg-teal/90 p-2 text-xs font-semibold text-aqua outline outline-1 outline-orange [text-shadow:_2px_2px_5px_#000000] sm:text-base lg:w-[16vw] lg:max-w-[250px] lg:text-lg ">
