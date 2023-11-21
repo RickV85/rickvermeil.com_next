@@ -24,6 +24,7 @@ const config: Config = {
         aqua: "#34F6F2",
       },
       screens: {
+        xs: "0px",
         sm: "450px",
         md: "700px",
         mdlg: "900px",
