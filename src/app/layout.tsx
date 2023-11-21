@@ -74,7 +74,7 @@ export default function RootLayout({
         ${passionOne.variable}
       `}
     >
-      <body className="flex flex-col items-center">
+      <body>
         {children}
         <Analytics />
       </body>
