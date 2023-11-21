@@ -6,6 +6,7 @@ import {
   Baloo_Chettan_2,
   Dosis,
   Passion_One,
+  Raleway,
 } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
@@ -44,6 +45,12 @@ export const passionOne = Passion_One({
   variable: "--font-passion-one",
 });
 
+export const raleway = Raleway({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-raleway"
+});
+
 export const metadata: Metadata = {
   title: "Rick Vermeil | Software Engineer",
   description:
@@ -72,6 +79,7 @@ export default function RootLayout({
         ${baloo.variable}
         ${dosis.variable}
         ${passionOne.variable}
+        ${raleway.variable}
       `}
     >
       <body>

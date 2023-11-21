@@ -14,6 +14,7 @@ const config: Config = {
         backcountry: ["var(--font-baloo)"],
         lavlink: ["var(--font-dosis)"],
         funkyflix: ["var(--font-passion-one)"],
+        vws: ["var(--font-raleway)"]
       },
       colors: {
         darkBlue: "#001524",
