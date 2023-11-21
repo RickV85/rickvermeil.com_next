@@ -48,6 +48,25 @@ export default function Nav({ section }: Props) {
               </h2>
             </section>
           </Link>
+          <Link href={"/freelance"}>
+            <section className="ml-3 flex flex-col items-center justify-center p-2 md:flex-row">
+              <Image
+                className="hidden w-8 md:flex md:w-12"
+                src="/vws_logo.svg"
+                alt="Vermeil Web Solutions icon"
+                width={60}
+                height={37}
+              />
+              <h2
+                id="freelance"
+                className={`text-sm text-beige md:ml-4 md:text-base ${
+                  section === "freelance" ? "text-orange" : ""
+                }`}
+              >
+                Freelance
+              </h2>
+            </section>
+          </Link>
         </div>
         <Link href={"/"} className="flex items-center">
           <div>
