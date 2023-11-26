@@ -18,11 +18,10 @@ export default function Testimonials() {
         <article
           key={`testimonial-${i}`}
           id={`${data.name.split(" ")[1].toString().toLowerCase()}Testimonial`}
-          className="mx-4 my-4 rounded border border-solid border-teal p-4"
+          className="mx-4 my-4 rounded border border-solid border-teal p-4 text-sm sm:text-base mdlg:text-lg"
         >
           <p>{`"${data.quote}"`}</p>
-          <br/>
-          <p className="font-semibold">
+          <p className="text-right font-semibold">
             - {data.name}, {data.company}
           </p>
         </article>

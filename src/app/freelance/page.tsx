@@ -9,7 +9,7 @@ export default function Freelance() {
   return (
     <>
       <Nav section="freelance" />
-      <main className="flex w-screen flex-col items-center font-vws">
+      <main className="flex w-screen flex-col items-center font-vws ">
         <section
           id="heroSection"
           className="flex flex-col items-center xl:max-w-[1600px] "
@@ -50,9 +50,22 @@ export default function Freelance() {
             </div>
           </div>
         </section>
-        <section id="testimonialsSection" className="h-fit w-screen flex flex-col items-center">
-          <h3 className="text-xl font-semibold mt-2">Client Testimonials</h3>
+        <section
+          id="testimonialsSection"
+          className="flex h-fit flex-col xl:max-w-[1600px]"
+        >
+          <h3 className="ml-4 mt-4 text-xl font-semibold mdlg:text-2xl">
+            Client Testimonials
+          </h3>
           <Testimonials />
+        </section>
+        <section
+          id="servicesSection"
+          className="flex h-[30vh] w-screen flex-col xl:max-w-[1600px]"
+        >
+          <h3 className="ml-4 mt-4 text-xl font-semibold mdlg:text-2xl">
+            Services
+          </h3>
         </section>
       </main>
       <Footer />
