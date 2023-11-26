@@ -50,11 +50,12 @@ export default function Freelance() {
             </div>
           </div>
         </section>
+        {/* ****************** TESTIMONIALS SECTION ****************** */}
         <section
           id="testimonialsSection"
-          className="mx-4 flex h-fit flex-col xl:max-w-[1600px]"
+          className="mx-6 mdlg:mx-12 flex h-fit flex-col xl:max-w-[1600px]"
         >
-          <div className=" w-max ">
+          <div className=" w-max xl:w-[1500px]">
             <h3 className=" mt-4 w-fit text-xl font-bold text-teal drop-shadow-md sm:text-2xl mdlg:text-3xl">
               Client Testimonials
             </h3>
@@ -62,6 +63,7 @@ export default function Freelance() {
           </div>
           <Testimonials />
         </section>
+        {/* ****************** SERVICES SECTION ****************** */}
         <section
           id="servicesSection"
           className="flex h-fit w-screen flex-col px-6 text-sm mdlg:px-12 mdlg:text-base lg:px-20 xl:max-w-[1600px]"
