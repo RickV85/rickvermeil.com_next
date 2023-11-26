@@ -20,10 +20,10 @@ export default function Testimonials() {
           id={`${data.name.split(" ")[1].toString().toLowerCase()}Testimonial`}
           className="mx-4 my-4 rounded border border-solid border-teal p-4"
         >
-          <p>{data.quote}</p>
+          <p>{`"${data.quote}"`}</p>
           <br/>
-          <p>
-            {data.name}, {data.company}
+          <p className="font-semibold">
+            - {data.name}, {data.company}
           </p>
         </article>
       );

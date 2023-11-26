@@ -3,7 +3,7 @@
 import Footer from "../Components/Footer/Footer";
 import Nav from "../Components/Nav/Nav";
 import Image from "next/image";
-import Testimonials from "../Components/Testemonials/Testimonials";
+import Testimonials from "../Components/Testimonials/Testimonials";
 
 export default function Freelance() {
   return (
@@ -51,7 +51,7 @@ export default function Freelance() {
           </div>
         </section>
         <section id="testimonialsSection" className="h-fit w-screen flex flex-col items-center">
-          <h3 className="text-xl font-semibold">Client Testimonials</h3>
+          <h3 className="text-xl font-semibold mt-2">Client Testimonials</h3>
           <Testimonials />
         </section>
       </main>
