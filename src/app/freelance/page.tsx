@@ -3,15 +3,16 @@
 import Footer from "../Components/Footer/Footer";
 import Nav from "../Components/Nav/Nav";
 import Image from "next/image";
+import Testimonials from "../Components/Testemonials/Testimonials";
 
 export default function Freelance() {
   return (
     <>
       <Nav section="freelance" />
-      <main className=" flex w-screen flex-col items-center ">
+      <main className="flex w-screen flex-col items-center font-vws">
         <section
           id="heroSection"
-          className="flex flex-col items-center font-vws xl:max-w-[1600px] "
+          className="flex flex-col items-center xl:max-w-[1600px] "
         >
           <div
             id="heroImgContainer"
@@ -42,14 +43,17 @@ export default function Freelance() {
                 Vermeil Web Solutions
               </h2>
             </div>
-            <div className="mb-1  rounded-md bg-[#2a2a2a8e] p-1 text-center ">
+            <div className="mb-1 rounded-md bg-[#2a2a2a8e] p-1 text-center ">
               <p className="text-sm text-aqua drop-shadow-[1px_2px_3px_black] sm:text-base md:text-xl mdlg:text-2xl">
                 {"Elevating Your Apps to New Heights"}
               </p>
             </div>
           </div>
         </section>
-        <section id="testimonialsSection" className="h-[25vh]"></section>
+        <section id="testimonialsSection" className="h-fit w-screen flex flex-col items-center">
+          <h3 className="text-xl font-semibold">Client Testimonials</h3>
+          <Testimonials />
+        </section>
       </main>
       <Footer />
     </>
