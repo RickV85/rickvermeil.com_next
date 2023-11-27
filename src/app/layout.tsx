@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     "Rick Vermeil, Frontend Developer, Software Developer, React, Next.js, JavaScript, TypeScript, Node.js, Climbing, Mountain Biking, Snowboarding",
   robots: "index, follow",
   openGraph: {
-    title: "Rick Vermeil - Software Developer",
+    title: "Rick Vermeil Portfolio Site",
     description:
       "Specializing in React.js, Next.js, JavaScript, TypeScript, Node.js and other modern development tools. Explore my portfolio to see software projects, my resume, and learn about my personal interests in climbing, mountain biking, and snowboarding.",
     url: "https://www.rickvermeil.com",
