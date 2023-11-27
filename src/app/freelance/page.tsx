@@ -53,7 +53,7 @@ export default function Freelance() {
         {/* ****************** TESTIMONIALS SECTION ****************** */}
         <section
           id="testimonialsSection"
-          className="mx-6 mdlg:mx-12 flex h-fit flex-col xl:max-w-[1600px]"
+          className="mx-6 flex h-fit flex-col mdlg:mx-12 xl:max-w-[1600px]"
         >
           <div className=" w-max xl:w-[1500px]">
             <h3 className=" mt-4 w-fit text-xl font-bold text-teal drop-shadow-md sm:text-2xl mdlg:text-3xl">
@@ -79,15 +79,20 @@ export default function Freelance() {
               <h4 className=" mt-4 text-lg font-bold mdlg:text-2xl">
                 Custom Web Development
               </h4>
-              <p>{`With a strong foundation in Frontend Development and a natural flair for clear, effective communication, I excel in translating your ideas into captivating digital realities. My extensive experience in conveying technical concepts to non-technical stakeholders ensures that your vision is understood and brought to life just as you imagine it. Whether you're a startup, a small business, or an individual with a unique idea, my goal is to create a web presence that not only reflects your vision but also exceeds your expectations in functionality and design. Let's collaborate to build a website that's not just a digital space, but a true extension of your brand.`}</p>
+              <p>
+                With a strong foundation in Frontend Development and project
+                management, I excel in translating your ideas into captivating
+                digital realities. My extensive experience in conveying
+                technical concepts to non-technical stakeholders ensures that
+                your vision is understood and brought to life just as you
+                imagine it. Whether you&apos;re a startup, a small business, or
+                an individual with a unique idea, my goal is to create a web
+                presence that not only reflects your vision but also exceeds
+                your expectations in functionality and design. Let&apos;s
+                collaborate to build a website that&apos;s a true extension of
+                your brand.
+              </p>
               <ul className="my-4 ">
-                <li className="my-2 ">
-                  <h5 className="text-lg font-semibold">
-                    Responsive Website Design
-                  </h5>
-                  Tailoring websites to perform seamlessly across all devices
-                  and screen sizes.
-                </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">
                     Interactive User Interfaces
@@ -97,23 +102,30 @@ export default function Freelance() {
                 </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">
+                    Responsive Website Design
+                  </h5>
+                  Tailoring websites to display flawlessly across all devices
+                  and screen sizes.
+                </li>
+                <li className="my-2 ">
+                  <h5 className="text-lg font-semibold">
                     Custom JavaScript Development
                   </h5>
                   Implementing unique JavaScript functionalities for dynamic and
-                  interactive web experiences.
+                  interactive elements.
                 </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">
                     E-commerce Solutions
                   </h5>
                   Building robust online stores with user-friendly interfaces,
-                  integrating various payment systems and shopping cart
-                  technologies.
+                  integrating Shopify or other e-comm platforms into an existing
+                  website or within their native platform.
                 </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">CMS Integration</h5>
-                  Setting up and customizing content management systems for
-                  effortless content management.
+                  Setting up and customizing content management systems, like
+                  WordPress, for effortless content management.
                 </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">SEO Optimization</h5>
@@ -124,7 +136,7 @@ export default function Freelance() {
                   <h5 className="text-lg font-semibold">
                     Performance Optimization
                   </h5>
-                  Enhancing website speed and performance for an optimal user
+                  Increasing website speed and performance for an optimal user
                   experience.
                 </li>
                 <li className="my-2 ">
@@ -138,21 +150,21 @@ export default function Freelance() {
                   <h5 className="text-lg font-semibold">
                     Accessibility Compliance
                   </h5>
-                  Developing inclusive websites that adhere to ADA and WCAG
-                  guidelines.
+                  Updating existing websites to adhere to ADA and WCAG
+                  guidelines for an inclusive experience for any user.
                 </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">
                     Maintenance and Support
                   </h5>
-                  Offering ongoing support and updates to maintain your
-                  website&apos;s efficiency and security.
+                  Offering ongoing support to update and maintain your
+                  website&apos;s content, security, and other ongoing needs.
                 </li>
               </ul>
             </article>
             <article id="softwareDevelopmentServices" className="">
               <h4 className=" mt-4 text-lg font-bold mdlg:text-2xl">
-                Custom Software Development
+                Custom Web Application Development
               </h4>
               <p>{`As a dedicated Software Developer, I extend my expertise beyond the realm of web development to provide comprehensive software development services. My proficiency in React.js, Next.js, JavaScript ES6, TypeScript, and more enables me to create software solutions that are not only innovative but also user-friendly and efficient. Whether you're looking for a standalone application, a complex system integration, or a unique tool, my goal is to deliver software that aligns perfectly with your unique needs.`}</p>
               <ul className="my-4 ">
@@ -160,41 +172,33 @@ export default function Freelance() {
                   <h5 className="text-lg font-semibold">
                     Application Development
                   </h5>
-                  Building custom applications tailored to your specific
-                  business needs, focusing on functionality, scalability, and
-                  user experience.
-                </li>
-                <li className="my-2 ">
-                  <h5 className="text-lg font-semibold">
-                    Frontend Architectures
-                  </h5>
-                  Designing robust frontend architectures that ensure
-                  scalability, maintainability, and seamless integration with
-                  backend systems.
+                  Building custom web full-stack applications tailored to your
+                  specific business needs, focusing on functionality and user
+                  experience.
                 </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">API Integration</h5>
                   Connecting your application with third-party services and APIs
-                  to enhance functionality and user experience
+                  to enhance functionality and user experience.
                 </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">Data Visualization</h5>
                   Implementing data visualization tools and libraries to present
-                  complex data in an accessible and understandable format.
+                  your data in an understandable format.
                 </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">
                     Single Page Applications (SPA)
                   </h5>
                   Creating fast, responsive SPAs that offer a smooth, app-like
-                  user experience
+                  user experience with React.js and Next.js.
                 </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">
                     Progressive Web Apps (PWA)
                   </h5>
                   Developing PWAs that combine the best of web and mobile apps
-                  for an enhanced user experience, both online and offline.
+                  to add offline functionality to an application.
                 </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">
@@ -208,15 +212,8 @@ export default function Freelance() {
                   <h5 className="text-lg font-semibold">
                     Code Refactoring and Optimization
                   </h5>
-                  Improving existing codebases for better performance,
+                  Improving existing applications for better performance,
                   maintainability, and scalability.
-                </li>
-                <li className="my-2 ">
-                  <h5 className="text-lg font-semibold">
-                    Technical Consulting
-                  </h5>
-                  Providing expert advice and guidance on software development
-                  best practices, tool selection, and technology strategy.
                 </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">
