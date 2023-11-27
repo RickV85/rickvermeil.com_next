@@ -1,5 +1,3 @@
-"use client";
-
 import Footer from "../Components/Footer/Footer";
 import Nav from "../Components/Nav/Nav";
 import Image from "next/image";
@@ -55,7 +53,7 @@ export default function Freelance() {
           id="testimonialsSection"
           className="mx-6 flex h-fit flex-col mdlg:mx-12 xl:max-w-[1600px]"
         >
-          <div className=" w-max xl:w-[1500px]">
+          <div className=" w-max">
             <h3 className=" mt-4 w-fit text-xl font-bold text-teal drop-shadow-md sm:text-2xl mdlg:text-3xl">
               Client Testimonials
             </h3>
@@ -66,17 +64,17 @@ export default function Freelance() {
         {/* ****************** SERVICES SECTION ****************** */}
         <section
           id="servicesSection"
-          className="flex h-fit w-screen flex-col px-6 text-sm mdlg:px-12 mdlg:text-base lg:px-20 xl:max-w-[1600px]"
+          className="mb-6 flex h-fit w-screen flex-col rounded-md bg-darkBlue p-6 text-sm sm:w-11/12 mdlg:text-base lg:px-12 xl:max-w-[1600px]"
         >
           <div className=" w-max ">
-            <h3 className=" mt-4 text-xl font-bold text-teal drop-shadow-md sm:text-2xl mdlg:text-3xl">
+            <h3 className=" mt-4 text-xl font-bold text-aqua drop-shadow-md sm:text-2xl mdlg:text-3xl">
               Services
             </h3>
-            <hr className=" h-[1px] border-none bg-teal" />
+            <hr className=" h-[1px] border-none bg-aqua" />
           </div>
-          <div className="flex flex-col ">
+          <div className="flex flex-col text-beige ">
             <article id="webDevelopmentServices" className="">
-              <h4 className=" mt-4 text-lg font-bold mdlg:text-2xl">
+              <h4 className=" mt-4 text-lg font-bold text-aqua mdlg:text-2xl">
                 Custom Web Development
               </h4>
               <p>
@@ -156,10 +154,20 @@ export default function Freelance() {
               </ul>
             </article>
             <article id="softwareDevelopmentServices" className="">
-              <h4 className=" mt-4 text-lg font-bold mdlg:text-2xl">
+              <h4 className=" mt-4 text-lg font-bold text-aqua mdlg:text-2xl">
                 Custom Web Application Development
               </h4>
-              <p>{`As a dedicated Software Developer, I extend my expertise beyond the realm of web development to provide comprehensive software development services. My proficiency in React.js, Next.js, JavaScript ES6, TypeScript, and more enables me to create software solutions that are not only innovative but also user-friendly and efficient. Whether you're looking for a standalone application, a complex system integration, or a unique tool, my goal is to deliver software that aligns perfectly with your unique needs.`}</p>
+              <p>
+                As a dedicated Software Developer, I extend my expertise beyond
+                the realm of web development to provide comprehensive software
+                development services. My proficiency in React.js, Next.js,
+                JavaScript ES6, TypeScript, Node.js and more enables me to
+                create software solutions that are not only innovative but also
+                user-friendly and efficient. Whether you&apos;re looking for a
+                customized application, a complex system integration, or a
+                unique tool for your business, my goal is to deliver software
+                that aligns perfectly with your unique needs.
+              </p>
               <ul className="my-4 ">
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">
