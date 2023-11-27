@@ -48,7 +48,7 @@ export const passionOne = Passion_One({
 export const raleway = Raleway({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-raleway"
+  variable: "--font-raleway",
 });
 
 export const metadata: Metadata = {
@@ -59,17 +59,18 @@ export const metadata: Metadata = {
     "Rick Vermeil, Frontend Developer, Software Developer, React, Next.js, JavaScript, TypeScript, Node.js, Climbing, Mountain Biking, Snowboarding",
   robots: "index, follow",
   openGraph: {
-    title: "Rick Vermeil | Software Developer",
-    description: "Specializing in React.js, Next.js, JavaScript, TypeScript, Node.js and other modern development tools. Explore my portfolio to see software projects, my resume, and learn about my personal interests in climbing, mountain biking, and snowboarding.",
+    title: "Rick Vermeil - Software Developer",
+    description:
+      "Specializing in React.js, Next.js, JavaScript, TypeScript, Node.js and other modern development tools. Explore my portfolio to see software projects, my resume, and learn about my personal interests in climbing, mountain biking, and snowboarding.",
     url: "https://www.rickvermeil.com",
     type: "website",
     images: "https://www.rickvermeil.com/crestprofilepic_webres.webp",
-    locale: "en_US"
+    locale: "en_US",
   },
   other: {
     author: "Rick Vermeil",
     favicon: "Icons8",
-    canonical: "https://www.rickvermeil.com/"
+    canonical: "https://www.rickvermeil.com/",
   },
 };
 
