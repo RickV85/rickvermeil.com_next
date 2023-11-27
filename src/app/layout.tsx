@@ -6,6 +6,7 @@ import {
   Baloo_Chettan_2,
   Dosis,
   Passion_One,
+  Raleway,
 } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
@@ -44,16 +45,31 @@ export const passionOne = Passion_One({
   variable: "--font-passion-one",
 });
 
+export const raleway = Raleway({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-raleway"
+});
+
 export const metadata: Metadata = {
-  title: "Rick Vermeil | Software Engineer",
+  title: "Rick Vermeil | Software Developer",
   description:
     "Specializing in React.js, Next.js, JavaScript, TypeScript, Node.js and other modern development tools. Explore my portfolio to see software projects, my resume, and learn about my personal interests in climbing, mountain biking, and snowboarding.",
   keywords:
-    "Rick Vermeil, Frontend Developer, Software Engineer, React, Next.js, JavaScript, TypeScript, Node.js, Climbing, Mountain Biking, Snowboarding",
+    "Rick Vermeil, Frontend Developer, Software Developer, React, Next.js, JavaScript, TypeScript, Node.js, Climbing, Mountain Biking, Snowboarding",
   robots: "index, follow",
+  openGraph: {
+    title: "Rick Vermeil | Software Developer",
+    description: "Specializing in React.js, Next.js, JavaScript, TypeScript, Node.js and other modern development tools. Explore my portfolio to see software projects, my resume, and learn about my personal interests in climbing, mountain biking, and snowboarding.",
+    url: "https://www.rickvermeil.com",
+    type: "website",
+    images: "https://www.rickvermeil.com/crestprofilepic_webres.webp",
+    locale: "en_US"
+  },
   other: {
     author: "Rick Vermeil",
     favicon: "Icons8",
+    canonical: "https://www.rickvermeil.com/"
   },
 };
 
@@ -72,9 +88,10 @@ export default function RootLayout({
         ${baloo.variable}
         ${dosis.variable}
         ${passionOne.variable}
+        ${raleway.variable}
       `}
     >
-      <body className="flex flex-col items-center">
+      <body>
         {children}
         <Analytics />
       </body>
