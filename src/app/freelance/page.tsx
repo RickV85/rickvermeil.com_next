@@ -80,17 +80,17 @@ export default function Freelance() {
                 Custom Web Development
               </h4>
               <p>
-                With a strong foundation in Frontend Development and project
-                management, I excel in translating your ideas into captivating
-                digital realities. My extensive experience in conveying
-                technical concepts to non-technical stakeholders ensures that
-                your vision is understood and brought to life just as you
-                imagine it. Whether you&apos;re a startup, a small business, or
-                an individual with a unique idea, my goal is to create a web
-                presence that not only reflects your vision but also exceeds
-                your expectations in functionality and design. Let&apos;s
-                collaborate to build a website that&apos;s a true extension of
-                your brand.
+                With a strong foundation in Frontend Development, project
+                management, and e-commerce, I excel in translating your ideas
+                into captivating digital realities. My extensive experience in
+                conveying technical concepts to non-technical stakeholders
+                ensures that your vision is understood and brought to life just
+                as you imagine it. Whether you&apos;re a startup, a small
+                business, or an individual with a unique idea, my goal is to
+                create a web presence that not only reflects your vision but
+                also exceeds your expectations in functionality and design.
+                Let&apos;s collaborate to build a website that&apos;s a true
+                extension of your brand.
               </p>
               <ul className="my-4 ">
                 <li className="my-2 ">
@@ -118,9 +118,9 @@ export default function Freelance() {
                   <h5 className="text-lg font-semibold">
                     E-commerce Solutions
                   </h5>
-                  Building robust online stores with user-friendly interfaces,
+                  Building online stores with user-friendly interfaces,
                   integrating Shopify or other e-comm platforms into an existing
-                  website or within their native platform.
+                  website or building within their native platforms.
                 </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">CMS Integration</h5>
@@ -138,13 +138,6 @@ export default function Freelance() {
                   </h5>
                   Increasing website speed and performance for an optimal user
                   experience.
-                </li>
-                <li className="my-2 ">
-                  <h5 className="text-lg font-semibold">
-                    Cross-Browser Compatibility
-                  </h5>
-                  Ensuring consistent website performance across various web
-                  browsers.
                 </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">
