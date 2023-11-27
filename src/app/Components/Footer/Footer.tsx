@@ -13,8 +13,7 @@ export default function Footer() {
           Email me
         </Link>
         <p className="text-center text-sm text-beige m-1 ">
-          {`If the above link doesn't work, please send me an email at
-        rickv85(at)gmail.com`}
+          rickv85(at)gmail.com
         </p>
       </div>
     </footer>
