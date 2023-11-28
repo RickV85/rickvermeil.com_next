@@ -64,7 +64,7 @@ export default function Freelance() {
         {/* ****************** SERVICES SECTION ****************** */}
         <section
           id="servicesSection"
-          className="mb-6 flex h-fit flex-col rounded-md bg-darkBlue p-6 text-sm mdlg:mx-12 mdlg:text-base lg:px-12 xl:max-w-[1600px]"
+          className=" mglg:p-6 flex h-fit flex-col bg-darkBlue px-6 text-sm mdlg:mx-12 mdlg:mb-6 mdlg:rounded-md mdlg:text-base lg:px-12 xl:max-w-[1600px]"
         >
           <div className=" w-max ">
             <h3 className=" mt-4 text-xl font-bold text-aqua drop-shadow-md sm:text-2xl mdlg:text-3xl">
