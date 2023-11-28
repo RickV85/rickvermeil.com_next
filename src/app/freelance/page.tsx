@@ -37,7 +37,7 @@ export default function Freelance() {
                 height={935}
                 className="shadow-[0px_0px_4px_3px_#ffffff94]"
               />
-              <h2 className="w-max text-center text-lg font-semibold text-aqua drop-shadow-[1px_2px_3px_black] sm:text-2xl mdlg:text-3xl">
+              <h2 className="w-max text-center text-lg font-semibold text-aqua drop-shadow-[1px_2px_3px_black] sm:text-2xl mdlg:my-2 mdlg:text-3xl">
                 Vermeil Web Solutions
               </h2>
             </div>
@@ -64,7 +64,7 @@ export default function Freelance() {
         {/* ****************** SERVICES SECTION ****************** */}
         <section
           id="servicesSection"
-          className="mb-6 flex h-fit w-screen flex-col rounded-md bg-darkBlue p-6 text-sm sm:w-11/12 mdlg:text-base lg:px-12 xl:max-w-[1600px]"
+          className="mb-6 flex h-fit flex-col rounded-md bg-darkBlue p-6 text-sm mdlg:mx-12 mdlg:text-base lg:px-12 xl:max-w-[1600px]"
         >
           <div className=" w-max ">
             <h3 className=" mt-4 text-xl font-bold text-aqua drop-shadow-md sm:text-2xl mdlg:text-3xl">

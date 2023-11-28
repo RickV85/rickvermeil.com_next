@@ -18,7 +18,7 @@ export default function Testimonials() {
         <article
           key={`testimonial-${i}`}
           id={`${data.name.split(" ")[1].toString().toLowerCase()}Testimonial`}
-          className="my-4 rounded border border-solid border-teal p-4 text-sm sm:text-base mdlg:text-lg"
+          className="my-4 rounded border border-solid border-teal p-4 text-sm sm:text-base mdlg:text-lg "
         >
           <p>{`"${data.quote}"`}</p>
           <p className="text-right font-semibold">
@@ -30,5 +30,5 @@ export default function Testimonials() {
     return display;
   };
 
-  return <>{testimonialDisplay()}</>;
+  return <div className="lg:flex lg:gap-4">{testimonialDisplay()}</div>;
 }
