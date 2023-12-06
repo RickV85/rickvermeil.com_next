@@ -15,13 +15,13 @@ export default function Nav({ section }: Props) {
               <Image
                 className="hidden w-8 md:flex md:w-12"
                 src="https://img.icons8.com/ios-glyphs/100/15616D/react.png"
-                alt="JavaScript icon"
+                alt="React icon"
                 width={100}
                 height={100}
               />
               <h2
                 id="software"
-                className={`xs:text-xs text-beige sm:text-sm md:ml-2 md:text-base ${
+                className={`xs:text-xs text-beige sm:text-sm md:ml-2 md:text-base hover:text-orange ${
                   section === "software" ? "text-orange" : ""
                 }`}
               >
@@ -40,7 +40,7 @@ export default function Nav({ section }: Props) {
               />
               <h2
                 id="resume"
-                className={`xs:text-xs text-beige sm:text-sm md:ml-2 md:text-base ${
+                className={`xs:text-xs text-beige sm:text-sm md:ml-2 md:text-base hover:text-orange ${
                   section === "resume" ? "text-orange" : ""
                 }`}
               >
@@ -59,7 +59,7 @@ export default function Nav({ section }: Props) {
               />
               <h2
                 id="freelance"
-                className={`xs:text-xs text-beige sm:text-sm md:ml-4 md:text-base ${
+                className={`xs:text-xs text-beige sm:text-sm md:ml-4 md:text-base hover:text-orange ${
                   section === "freelance" ? "text-orange" : ""
                 }`}
               >

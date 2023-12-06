@@ -9,7 +9,10 @@ import Link from "next/link";
 
 function Home() {
   const heroImages = [
-    { url: "/Shelf-81-70.webp", alt: "Page author rock climbing on a sunny day" },
+    {
+      url: "/Shelf-81-70.webp",
+      alt: "Page author rock climbing on a sunny day",
+    },
     {
       url: "/DSC_0232-70.webp",
       alt: "Page author close up on a boat in Thailand",
@@ -114,13 +117,13 @@ function Home() {
             
             While my background is in marketing, I recently attended the Turing School of Software and Design, successfully completing their frontend development program. This experience has given me the skills, knowledge and tenacity that I need to help me make this change.
 
-            My expertise in modern frontend coding languages and frameworks include proficiencies in React, Next.js, Node.js, JavaScript, TypeScript, CSS3, Sass, Tailwind, HTML5, and testing with Cypress, Mocha, and Jest but I am always learning new tech. UI/UX design, user-friendly error handling, responsive layouts, accessibility, Agile methodologies, and test-driven development are all important practices that I employ when creating applications.
+            My expertise in modern coding languages and frameworks include proficiencies in React, Next.js, Node.js, JavaScript, TypeScript, CSS3, Sass, Tailwind, HTML5, and testing with Cypress, Mocha, and Jest but I am always learning new tech. UI/UX design, user-friendly error handling, responsive layouts, accessibility, Agile methodologies, and test-driven development are all important practices that I employ when creating applications.
 
             One of my proudest accomplishments is the creation of "Backcountry Bookings", an application that competed in Turing's "Demo Comp" against other outstanding student projects and was selected as the winner by experts from around the software industry. It was an amazing experience to see our design come to life with the help of a full-stack team and an honor to win the competition.
 
             As a developer, I'm highly collaborative, methodical, and I value producing quality, readable code. My marketing experience has given me a unique perspective on user empathy, and I'm always thinking about how to create the best possible experience for my users.
 
-            Thank you for taking the time to learn more about me, and I hope to have the opportunity to work with you soon. Please click the link below if you'd like to get in touch.`}</p>
+            Thank you for taking the time to learn more about me, and I hope to have the opportunity to work with you soon. Please click the links below if you'd like to get in touch.`}</p>
             </article>
           </div>
         </section>

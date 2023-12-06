@@ -107,10 +107,10 @@ export default function Freelance() {
                 </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">
-                    Custom JavaScript Development
+                    Custom JavaScript & TypeScript Development
                   </h5>
-                  Implementing unique JavaScript functionalities for dynamic and
-                  interactive elements.
+                  Implementing unique JavaScript & TypeScript functionalities
+                  for dynamic and interactive elements.
                 </li>
                 <li className="my-2 ">
                   <h5 className="text-lg font-semibold">
