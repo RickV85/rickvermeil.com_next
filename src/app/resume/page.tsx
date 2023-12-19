@@ -3,7 +3,7 @@ import Footer from "../Components/Footer/Footer";
 import Link from "next/link";
 
 export default function Resume() {
-  const resumeSrc = "/Rick Vermeil Resume 11.14.23.pdf";
+  const resumeSrc = "/Rick Vermeil Resume 12.19.23.pdf";
 
   return (
     <>
