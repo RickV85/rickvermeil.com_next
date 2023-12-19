@@ -1,6 +1,5 @@
 import Nav from "../Components/Nav/Nav";
 import Footer from "../Components/Footer/Footer";
-import Link from "next/link";
 
 export default function Resume() {
   const resumeSrc = "/Rick Vermeil Resume 12.19.23.pdf";
@@ -8,7 +7,7 @@ export default function Resume() {
   return (
     <>
       <Nav section={"resume"} />
-      <section className=" flex flex-col items-center h-[82vh] sm:h-[90vh] md:h-[105vh] ">
+      <section className=" flex h-[82vh] flex-col items-center sm:h-[90vh] md:h-[105vh] ">
         <iframe
           itemType="pdf"
           title="Rick Vermeil Resume"
@@ -19,7 +18,7 @@ export default function Resume() {
           Your browser does not support PDFs. Please download my resume by
           clicking the button below.
         </iframe>
-        <button className=" h-fit w-fit bg-teal py-2 px-6 m-6 rounded-md ">
+        <button className=" m-6 h-fit w-fit rounded-md bg-teal px-6 py-2 ">
           <a
             href={resumeSrc}
             download
