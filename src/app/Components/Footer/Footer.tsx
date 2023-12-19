@@ -23,7 +23,7 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          Email me
+          Contact
         </Link>
       </div>
       <Link href="https://github.com/RickV85" target="_blank" rel="noreferrer">

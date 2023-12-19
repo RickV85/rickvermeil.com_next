@@ -2,6 +2,8 @@ import Footer from "../Components/Footer/Footer";
 import Nav from "../Components/Nav/Nav";
 import Image from "next/image";
 import Testimonials from "../Components/Testimonials/Testimonials";
+import FreelanceWork from "../Components/FreelanceWork/FreelanceWork";
+import freelanceData from "../Components/FreelanceWork/freelanceData.json";
 
 export default function Freelance() {
   return (
@@ -60,6 +62,23 @@ export default function Freelance() {
             <hr className=" h-[1px] border-none bg-teal" />
           </div>
           <Testimonials />
+        </section>
+        {/* ****************** PORTFOLIO SECTION ****************** */}
+        <section
+          id="portfolioSection"
+          className="mx-6 my-2 flex h-fit flex-col mdlg:mx-12 xl:max-w-[1600px]"
+        >
+          <div className=" w-max">
+            <h3 className="w-fit text-xl font-bold text-teal drop-shadow-md sm:text-2xl mdlg:text-3xl">
+              Portfolio
+            </h3>
+            <hr className=" h-[1px] border-none bg-teal" />
+          </div>
+          <div className="">
+            {freelanceData.map((job, i) => (
+              <FreelanceWork jobData={job} key={i} />
+            ))}
+          </div>
         </section>
         {/* ****************** SERVICES SECTION ****************** */}
         <section

@@ -17,6 +17,7 @@ export const bitter = Bitter({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-bitter",
+  preload: true
 });
 
 export const permanentMarker = Permanent_Marker({
@@ -24,18 +25,21 @@ export const permanentMarker = Permanent_Marker({
   display: "swap",
   weight: "400",
   variable: "--font-permanent-marker",
+  preload: true
 });
 
 export const baloo = Baloo_Chettan_2({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-baloo",
+  preload: true
 });
 
 export const dosis = Dosis({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-dosis",
+  preload: true
 });
 
 export const passionOne = Passion_One({
@@ -43,12 +47,14 @@ export const passionOne = Passion_One({
   display: "swap",
   weight: "400",
   variable: "--font-passion-one",
+  preload: true
 });
 
 export const raleway = Raleway({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-raleway",
+  preload: true
 });
 
 export const metadata: Metadata = {
