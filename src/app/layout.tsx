@@ -7,6 +7,7 @@ import {
   Dosis,
   Passion_One,
   Raleway,
+  Fugaz_One
 } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
@@ -57,6 +58,14 @@ export const raleway = Raleway({
   preload: true
 });
 
+export const fugazOne = Fugaz_One({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "400",
+  variable: "--font-fugaz",
+  preload: true
+})
+
 export const metadata: Metadata = {
   title: "Rick Vermeil | Software Developer",
   description:
@@ -96,6 +105,7 @@ export default function RootLayout({
         ${dosis.variable}
         ${passionOne.variable}
         ${raleway.variable}
+        ${fugazOne.variable}
       `}
     >
       <body>

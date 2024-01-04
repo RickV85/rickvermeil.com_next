@@ -16,3 +16,8 @@
 body {
   background-color: #FFECD1;
 }
+
+/* Border on Sendtemps Software tile */
+body > section > section.bg-\[\#2A3C43\].w-\[95vw\].flex.flex-col.items-center.max-w-\[1200px\].rounded-lg.h-fit.p-4.mt-4.font-body > div > img {
+  border: 1px solid #9FAF90;
+}

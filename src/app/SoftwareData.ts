@@ -1,5 +1,40 @@
 export const data = [
   {
+    appTitle: "SendTemps",
+    tech: [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "Google OAuth",
+      "NextAuth",
+      "Google Maps API",
+      "Vercel Storage",
+      "CSS",
+      "HTML",
+      "Git",
+      "GitHub"
+    ],
+    bgColor: "bg-[#2A3C43]",
+    titleFontStyle: "font-fugaz font-[400] text-[#00B2FF]",
+    ytLink: "",
+    img: "/sendtemps.jpeg",
+    descFontStyle: "text-[#FFFFFF] text-lg",
+    description: `In June 2023, I created a simple application to retrieve forecasts for my favorite local climbing, mountain biking and snowboarding locations. What began as a basic utility grew into a full-fledged application, specifically designed for Colorado Front Range outdoor sport enthusiasts. SendTemps has evolved into a comprehensive full-stack Next.js 14 application, providing accurate and detailed NOAA forecasts for backcountry locations, far exceeding my initial vision for the project.
+
+    At its core, SendTemps stands out with its user-centric features. It boasts real-time NOAA weather forecasts specifically tailored for the backcountry terrain, outshining typical weather apps that focus on urban areas. Its seamless integration of Google OAuth and NextAuth offers a smooth and secure user experience, with an interactive mapping system powered by Google Maps API. This intuitive system allows users to effortlessly create and manage custom locations for their adventures. Underneath this user-friendly interface lies a robust Node.js-PostgreSQL backend, ensuring reliable storage and management of location data.
+    
+    The journey of developing SendTemps was filled with learning and growth. I dove headfirst into the world of user authentication, grappling with NextAuth, JSON Web Tokens, and cookies. This challenge enhanced my understanding of user security and privacy, a critical aspect of modern web applications. TypeScript, a language I chose for its prevalence in enterprise-level applications, proved to be a tedious but rewarding endeavor. It pushed me to handle new challenges and improved my ability to write maintainable and robust code.
+    
+    Perhaps the most significant leap was my foray into full-stack development. Without formal backend training, I relied on my curiosity and determination to explore Next.js's API features, delve into PostgreSQL queries, and refine my Node.js skills. This self-driven exploration not only expanded my technical skill set but also transformed me into a more versatile developer, ready to take on full-stack roles with confidence.
+    
+    Looking ahead, I envision SendTemps evolving further. From expanding location categories to integrating AI-powered recommendations, the roadmap includes features that will enhance personalization and user engagement. As I reflect on this journey, I am reminded of the incredible journey of growth and discovery that SendTemps has been. It's more than just an application; it's a testament to my dedication to learning, creating, and pushing the boundaries of what I can achieve as a developer.`,
+    linkLogoColor: "EF8354",
+    deployedLink: "https://sendtemps.vercel.app",
+    ghLink: "https://github.com/RickV85/sendtemps",
+  },
+  {
     appTitle: "Ride Ready",
     tech: [
       "React",
@@ -36,7 +71,7 @@ export const data = [
   {
     appTitle: "Backcountry Bookings",
     tech: [
-      "React",
+      "React.js",
       "Typescript",
       "Rails",
       "Ruby",
@@ -69,7 +104,7 @@ export const data = [
   {
     appTitle: "LavLink",
     tech: [
-      "React",
+      "React.js",
       "JavaScript",
       "Redux",
       "Sass",
@@ -99,7 +134,7 @@ export const data = [
   },
   {
     appTitle: "Funky Flix",
-    tech: ["React", "JavaScript", "CSS", "HTML", "Cypress", "REST API", "Git", "GitHub"],
+    tech: ["React.js", "JavaScript", "CSS", "HTML", "Cypress", "REST API", "Git", "GitHub"],
     bgColor: "bg-[#222121]",
     titleFontStyle: "font-funkyflix text-[#f95738] font-bold",
     ytLink: "",
