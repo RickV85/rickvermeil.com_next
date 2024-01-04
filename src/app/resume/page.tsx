@@ -2,7 +2,7 @@ import Nav from "../Components/Nav/Nav";
 import Footer from "../Components/Footer/Footer";
 
 export default function Resume() {
-  const resumeSrc = "/Rick Vermeil Resume 12.19.23.pdf";
+  const resumeSrc = "/Rick Vermeil Resume 1.4.24.pdf";
 
   return (
     <>
