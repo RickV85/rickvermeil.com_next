@@ -16,7 +16,7 @@ export default function Freelance() {
         >
           <div
             id="heroImgContainer"
-            className="relative h-[45vh] w-screen sm:h-[60vh] mdlg:h-[75vh] lg:h-[85vh] xl:max-w-[1600px]"
+            className="relative h-[45vh] w-screen sm:h-[60vh] mdlg:h-[75vh] lg:h-[calc(100vh-6rem)] xl:max-w-[1600px]"
           >
             <Image
               src={"/Laptop_in_mtn_landscape.webp"}
@@ -26,7 +26,7 @@ export default function Freelance() {
               className="object-cover"
             />
           </div>
-          <div className="absolute flex h-[45vh] flex-col items-center justify-between sm:h-[60vh] mdlg:h-[75vh] lg:h-[85vh]">
+          <div className="absolute flex h-[45vh] flex-col items-center justify-between sm:h-[60vh] mdlg:h-[75vh] lg:h-[calc(100vh-6rem)]">
             <div
               id="vwsLogoContainer"
               className="mt-4 flex w-32 flex-col items-center justify-center sm:w-40 md:w-52 mdlg:w-64 "
