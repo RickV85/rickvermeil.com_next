@@ -1,5 +1,11 @@
 [
   {
+    "client": "Buttermilk Kitchen",
+    "workType": "Custom Next.js Web Application",
+    "description": "For the Buttermilk Kitchen in Atlanta, GA, I developed a Next.js web application to collect detailed feedback from \"Secret Shoppers\", helping the restaurant to monitor and improve their customers' experience. This mobile-first solution seamlessly integrates the restaurant's branding for a consistent user experience, featuring a secure survey accessible while dining. The app boasts innovative features such as an automated email system for instant feedback sharing, a user-friendly photo upload option for vivid customer insights, and dynamic question generation for effortless survey customization. Designed with both scalability and user engagement in mind, this application is a testament to my ability to leverage modern web technologies to meet and exceed business needs. Please note that this application is not accessible to the public, so please contact me for a walkthrough or explore the GitHub repository linked below.",
+    "link": "https://github.com/RickV85/secret_shopper"
+  },
+  {
     "client": "Nohmad Snack Co.",
     "workType": "Shopify Store Enhancement",
     "description": "Enhanced user experience for Nohmad Snack Co., a startup chocolate company, by customizing their Shopify store template using Liquid, JavaScript, and CSS. Quickly overcame challenges in familiarizing with Shopify's theme functionality. Notably, modifying the product page to display a selected hero image over the theme's default of a variant specific image, enhancing visual appeal and engagement, and creating custom accordion components with animations to elegantly display product attributes.",
@@ -13,7 +19,7 @@
   },
   {
     "client": "David M. Budd Photography",
-    "workType": "Custom Next.js Application",
+    "workType": "Custom Marketing Website built with Next.js",
     "description": "Developed a responsive, app-like portfolio website for Denver-based photographer David M. Budd to display his work as best as possible on all devices. Employed Next's server-side rendering, Image components and custom functions for optimal image loading, consistently achieving a Google Page Speed performance scores over 95 for mobile users without compromising image quality. Cleared security violations with Google due to the previous site iteration being hacked, and enhanced technical SEO through semantic HTML, WCAG compliance, sitemap creation, metadata optimization, and Google Search Console indexing. Received client accolades for this fully custom site, workflow transparency, and SEO assistance.",
     "link": "https://www.davidmbuddphotography.com"
   },
