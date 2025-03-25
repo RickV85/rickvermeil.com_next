@@ -73,7 +73,7 @@ function Home() {
           ))}
           <div className="w-[225px] -translate-x-16 sm:w-[330px] sm:-translate-x-20 md:w-[550px] md:-translate-x-36 lg:-translate-x-64">
             <p className=" text-center text-[1.1rem] font-semibold text-aqua [text-shadow:_2px_2px_5px_#000000] sm:text-[1.5rem] sm:leading-[30px]  md:text-[2rem] md:leading-[40px]  lg:text-[3rem] lg:leading-[60px] ">
-              Software Developer,
+              Software Engineer,
               <br />
               passionate adventurer,
               <br />
@@ -113,17 +113,13 @@ function Home() {
                     ? "translate-y-0 opacity-100"
                     : "translate-y-4 opacity-0"
                 }`}
-              >{`I'm a former marketing professional, with extensive experience in Project Management, Web Content Management and Product Ownership, eager to transition to a Software Engineering role.
-            
-            While my background is in marketing, I recently attended the Turing School of Software and Design, successfully completing their frontend development program. This experience has given me the skills, knowledge and tenacity that I need to help me make this change.
+              >{`I am a software engineer with a background in marketing, product ownership, and project management. My diverse experience allows me to approach software development with a strategic, user-focused mindset, ensuring that the applications I build are both functional and intuitive.
 
-            My expertise in modern coding languages and frameworks include proficiencies in React, Next.js, Node.js, JavaScript, TypeScript, CSS3, Sass, Tailwind, HTML5, and testing with Cypress, Mocha, and Jest but I am always learning new tech. UI/UX design, user-friendly error handling, responsive layouts, accessibility, Agile methodologies, and test-driven development are all important practices that I employ when creating applications.
+              Recently, I have worked as a Software Engineer at percipient.ai, where I contribute to a complex, AI-powered React/TypeScript application. I’ve built and refined meaningful UI features, collaborated closely with product teams to enhance UX, and tackled challenging technical problems to improve performance and scalability.
 
-            One of my proudest accomplishments is the creation of "Backcountry Bookings", an application that competed in Turing's "Demo Comp" against other outstanding student projects and was selected as the winner by experts from around the software industry. It was an amazing experience to see our design come to life with the help of a full-stack team and an honor to win the competition.
-
-            As a developer, I'm highly collaborative, methodical, and I value producing quality, readable code. My marketing experience has given me a unique perspective on user empathy, and I'm always thinking about how to create the best possible experience for my users.
-
-            Thank you for taking the time to learn more about me, and I hope to have the opportunity to work with you soon. Please click the links below if you'd like to get in touch.`}</p>
+              My expertise includes React, Next.js, TypeScript, JavaScript, Node.js, CSS, Tailwind, Sass, SQL, and testing with Cypress, Mocha, and Jest. I thrive in collaborative environments, value clean, maintainable code, and have a passion for crafting seamless, accessible, and user-friendly digital experiences.
+              
+              Thank you for taking the time to learn more about me. Let’s connect!`}</p>
             </article>
           </div>
         </section>
