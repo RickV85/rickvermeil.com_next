@@ -23,13 +23,7 @@ export const data = [
     descFontStyle: "text-[#FFFFFF] text-lg",
     description: `In June 2023, I created a simple application to retrieve forecasts for my favorite local climbing, mountain biking and snowboarding locations. What began as a basic utility grew into a full-fledged application, specifically designed for Colorado Front Range outdoor sport enthusiasts. SendTemps has evolved into a comprehensive full-stack Next.js 14 application, providing accurate and detailed NOAA forecasts for backcountry locations, far exceeding my initial vision for the project.
 
-    At its core, SendTemps stands out with its user-centric features. It boasts real-time NOAA weather forecasts specifically tailored for the backcountry terrain, outshining typical weather apps that focus on urban areas. Its seamless integration of Google OAuth and NextAuth offers a smooth and secure user experience, with an interactive mapping system powered by Google Maps API. This intuitive system allows users to effortlessly create and manage custom locations for their adventures. Underneath this user-friendly interface lies a robust Node.js-PostgreSQL backend, ensuring reliable storage and management of location data.
-    
-    The journey of developing SendTemps was filled with learning and growth. I dove headfirst into the world of user authentication, grappling with NextAuth, JSON Web Tokens, and cookies. This challenge enhanced my understanding of user security and privacy, a critical aspect of modern web applications. TypeScript, a language I chose for its prevalence in enterprise-level applications, proved to be a tedious but rewarding endeavor. It pushed me to handle new challenges and improved my ability to write maintainable and robust code.
-    
-    Perhaps the most significant leap was my foray into full-stack development. Without formal backend training, I relied on my curiosity and determination to explore Next.js's API features, delve into PostgreSQL queries, and refine my Node.js skills. This self-driven exploration not only expanded my technical skill set but also transformed me into a more versatile developer, ready to take on full-stack roles with confidence.
-    
-    Looking ahead, I envision SendTemps evolving further. From expanding location categories to integrating AI-powered recommendations, the roadmap includes features that will enhance personalization and user engagement. As I reflect on this journey, I am reminded of the incredible journey of growth and discovery that SendTemps has been. It's more than just an application; it's a testament to my dedication to learning, creating, and pushing the boundaries of what I can achieve as a developer.`,
+    At its core, SendTemps stands out with its user-centric features. It boasts real-time NOAA weather forecasts specifically tailored for the backcountry terrain, outshining typical weather apps that focus on urban areas. It's seamless integration of Google OAuth and NextAuth offers a smooth and secure user experience, with an interactive mapping system powered by Google Maps API. This intuitive system allows users to effortlessly create and manage custom locations for their adventures. Underneath this user-friendly interface lies a robust Node.PostgreSQL backend, ensuring reliable storage and management of location data as well as retrieving NOAA weather forecasts and OpenAI analysis of the forecasts.`,
     linkLogoColor: "EF8354",
     deployedLink: "https://sendtemps.vercel.app",
     ghLink: "https://github.com/RickV85/sendtemps",
@@ -55,15 +49,11 @@ export const data = [
     ytLink: "https://www.youtube.com/embed/WvRA8F9EQsI",
     img: "",
     descFontStyle: "text-[#F6AE2D] text-lg",
-    description: `Fueled by the grit and determination of a competitive mountain biker, I embarked on a journey to create an application that has the potential to revolutionize the bike maintenance experience. This idea struck me as I was rebuilding my own mountain bike suspension. I was pondering a problem that most mountain bikers are all too familiar with - trying to recall the last service date of their suspension and then trying to make an educated guess on wether or not it was due for service or not. Typically, suspension manufacturers recommend the service intervals in an amount of hours ridden since the last rebuild was performed.
+    description: `The concept for Ride Ready struck me as I was rebuilding my mountain bike suspension. I was pondering a problem that most mountain bikers are all too familiar with - trying to recall the last service date of their suspension and then trying to make an educated guess on whether or not it was due for service. Typically, suspension manufacturers recommend the service intervals in an amount of hours ridden since the last rebuild was performed, which is difficult to keep track of.
 
     For the 3rd quarter final project at Turing's School of Software and Design, I took on the challenge of building an app that addresses this problem within a tight 6-day deadline on my own. In this venture, I not only pushed my limits but also got my hands dirty with some technology that was new to me, such as OAuth2.0. The success I achieved in building this application made me reflect on how far I had come as a developer. Not long before, I couldn't fathom building a complex application that solves a real-world problem, especially in such a short time frame.
     
-    Now, not only do I believe in my potential to create virtually anything given the time and resources, but I also see the potential that this app has to help my fellow mountain bikers. All components on a bicycle need to be serviced or replaced over time and a tool, like this one, that could remind a user of those intervals would be very useful for the cycling community at large.
-    
-    Recently, while on the hunt for my first developer role, I decided to enhance the app further and learn some new skills. I've developed a fully functional backend using Node.js, Express, and SQL to house users' suspension data, eliminating the need for that data to be stored in local storage. This app continues to motivate me to learn new skills and apply them through enhancing this product with new features.
-    
-    Please note, this application requires a Strava account and the tracking of mountain bike rides for accurate operation. For those who do not mountain bike or do not use Strava in this way, I invite you to enjoy the video above and welcome you to reach out for a personal demonstration.`,
+    Please note, this application requires a Strava account and the tracking of mountain bike rides for accurate operation. For those who do not mountain bike or do not use Strava in this way, I invite you to watch the video above and welcome you to reach out for a personal demonstration.`,
     linkLogoColor: "F26419",
     deployedLink: "https://www.ridereadybike.com",
     ghLink: "https://github.com/RickV85/RideReady-FE",
@@ -90,9 +80,7 @@ export const data = [
     ytLink: "https://www.youtube.com/embed/4Q1fa0x7wao",
     img: "",
     descFontStyle: "font-backcountry text-[#FBFAF5] text-lg",
-    description: `Backcountry Bookings is the ultimate destination for all of your camping needs! It's a comprehensive research and review platform with National Park campground information from around the country, designed to help you find the perfect campsite for your next adventure.
-
-    Awarded first place in Turing's “Demo Comp” by a panel of judges in the software industry. This application was built by a full-stack team of seven students for the group's final Capstone project at the Turing School of Software and Design.
+    description: `Backcountry Bookings is the ultimate destination for all of your camping needs! It's a comprehensive research and review platform with National Park campground information from around the country, designed to help you find the perfect campsite for your next adventure. Awarded first place in Turing's “Demo Comp” by a panel of judges in the software industry. This application was built by a full-stack team of seven students for the group's final Capstone project at the Turing School of Software and Design.
     
     This application is designed to allow a user to research US National Park campgrounds by a variety of options including by state, park name, campground name and their current location. The user is presented with search result options which they can browse and then select one for more information or add to their favorites which will appear on the home page. On the details page for a campground, they will receive vital information about the campground that will help them plan their trip.
 
