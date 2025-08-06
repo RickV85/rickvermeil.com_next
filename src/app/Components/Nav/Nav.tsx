@@ -70,7 +70,7 @@ export default function Nav({ section }: Props) {
         </div>
         <Link href={"/"} className="flex items-center">
           <div>
-            <h1 className="xs:text-sm text-center font-light text-orange sm:text-base md:text-3xl mdlg:text-4xl">
+            <h1 className="xs:text-sm text-center font-semibold text-orange sm:text-base md:text-3xl mdlg:text-4xl">
               Rick Vermeil
             </h1>
           </div>

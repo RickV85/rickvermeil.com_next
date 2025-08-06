@@ -92,7 +92,7 @@ function Home() {
           <p
             className={`w-inherit m-4 whitespace-pre-line text-center text-sm font-light leading-loose text-darkBlue sm:text-base md:text-lg lg:my-6`}
           >
-            {`Hello and welcome! When I'm not pursuing one of my passions in the outdoors, you'll find me designing and brining user-centric web applications to life. I love pushing my limits on a rock face, down a mountain bike trail and in software development. I believe that the same focus and determination required to conquer a challenging climb or trail translates seamlessly into the world of software development.`}
+            {`Hello and welcome! I love to push my limits on a cliff-side, down a mountain bike trail and in software development. I believe that the focused and calculated approach I bring to a challenging climb or trail translates very well to the mindset needed as a self-motivated software engineer. I am excited by novel challenges and enjoy learning new skills that help me overcome them.`}
           </p>
           <div className="w-inherit flex h-fit flex-col-reverse items-center bg-teal mdlg:flex-row ">
             <div className="m-4 w-full sm:w-[60vw] md:m-8 md:min-w-[16rem] md:max-w-sm">
@@ -113,9 +113,9 @@ function Home() {
                     ? "translate-y-0 opacity-100"
                     : "translate-y-4 opacity-0"
                 }`}
-              >{`I am a software engineer with a background in marketing, product ownership, and project management. My diverse experience allows me to approach software development with a strategic, user-focused mindset, ensuring that the applications I build are both functional and intuitive.
+              >{`My background in marketing, product ownership, and project management provides me with a pragmatic, business-minded approach to software development. I focus on what truly matters for the timely delivery of successful products - building with intention, empathy, and care for the user, the developer, and the details.
 
-              Recently, I have worked as a Software Engineer at percipient.ai, where I contribute to a complex, AI-powered React/TypeScript application. I’ve built and refined meaningful UI features, collaborated closely with product teams to enhance UX, and tackled challenging technical problems to improve performance and scalability.
+              Currently employed as a Software Engineer at percipient.ai, where I contribute to a complex, AI powered React/TypeScript security application. I’ve built and refined meaningful UI features, collaborated closely with product teams to enhance UX, and tackled challenging technical problems.
 
               My expertise includes React, Next.js, TypeScript, JavaScript, Node.js, CSS, Tailwind, Sass, SQL, and testing with Cypress, Mocha, and Jest. I thrive in collaborative environments, value clean, maintainable code, and have a passion for crafting seamless, accessible, and user-friendly digital experiences.
               
