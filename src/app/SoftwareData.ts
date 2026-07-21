@@ -23,7 +23,9 @@ export const data = [
     descFontStyle: "text-[#FFFFFF] text-lg",
     description: `In June 2023, I created a simple application to retrieve forecasts for my favorite local climbing, mountain biking and snowboarding locations. What began as a basic utility grew into a full-fledged application, specifically designed for Colorado Front Range outdoor sport enthusiasts. SendTemps has evolved into a comprehensive full-stack Next.js 14 application, providing accurate and detailed NOAA forecasts for backcountry locations, far exceeding my initial vision for the project.
 
-    At its core, SendTemps stands out with its user-centric features. It boasts real-time NOAA weather forecasts specifically tailored for the backcountry terrain, outshining typical weather apps that focus on urban areas. It's seamless integration of Google OAuth and NextAuth offers a smooth and secure user experience, with an interactive mapping system powered by Google Maps API. This intuitive system allows users to effortlessly create and manage custom locations for their adventures. Underneath this user-friendly interface lies a robust Node.PostgreSQL backend, ensuring reliable storage and management of location data as well as retrieving NOAA weather forecasts and OpenAI analysis of the forecasts.`,
+    At its core, SendTemps stands out with its user-centric features. It boasts real-time NOAA weather forecasts specifically tailored for the backcountry terrain, outshining typical weather apps that focus on urban areas. It's seamless integration of Google OAuth and NextAuth offers a smooth and secure user experience, with an interactive mapping system powered by Google Maps API.
+    
+    This intuitive system allows users to effortlessly create and manage custom locations for their adventures. Underneath this user-friendly interface lies a robust Node/Express/PostgreSQL backend, ensuring reliable storage and management of location data as well as retrieving NOAA weather forecasts and OpenAI analysis of the forecasts.`,
     linkLogoColor: "EF8354",
     deployedLink: "https://sendtemps.vercel.app",
     ghLink: "https://github.com/RickV85/sendtemps",
